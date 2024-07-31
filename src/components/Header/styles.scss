@@ -1,0 +1,53 @@
+header.header {
+  padding: 2rem 1.5rem;
+  width: 100%;
+
+  div {
+    height: 100%;
+    max-width: 1820px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    a {
+      color: var(--white);
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.5rem;
+      
+      transition: all 0.2s;
+
+      &:hover {
+        color: var(--yellow-500);
+        filter: brightness(0.9);
+      }
+    }
+
+    button {
+      border: none;
+      background: inherit;
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: var(--white);
+      margin-left: 2rem;
+      margin-right: 4rem;
+
+      transition: all 0.2s;
+
+      &:hover {
+        color: var(--yellow-500);
+        filter: brightness(0.9);
+      }
+      
+    }
+  }
+
+  div.search {
+    margin-top: 1.5rem;
+  }
+
+  img {
+    max-width: 250px;
+  }
+}
